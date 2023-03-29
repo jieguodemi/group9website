@@ -1,0 +1,210 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+@import url(//fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
+@import url(https://fonts.googleapis.com/css2?family=Montserrat&display=swap);
+
+.logo {
+  text-shadow: rgb(179, 179, 179) 0px 0px 0px, rgb(188, 188, 188) 1px 1px 0px, rgb(198, 198, 198) 2px 2px 0px, rgb(207, 207, 207) 3px 3px 0px, rgb(217, 217, 217) 4px 4px 0px, rgb(226, 226, 226) 5px 5px 0px, rgb(236, 236, 236) 6px 6px 0px, rgb(245, 245, 245) 7px 7px 0px;
+  font-size: 30px;
+  color: rgb(18, 16, 17);
+  font-family: Montserrat;
+}
+
+.bodytext {
+  font-size: 18px;
+  color: rgb(18, 16, 17);
+  font-family: Montserrat;
+}
+
+.bodyemphasis {
+  background-color: black;
+  border: 1px solid #566963;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Montserrat;
+  font-size: 18px;
+  padding: 9px 23px;
+  text-decoration: none;
+}
+
+.bodyemphasis:hover {
+  text-decoration: underline;
+}
+
+.bodyemphasis:active {
+  position: relative;
+  top: 1px;
+}
+
+.divLogin {
+  text-align: right;
+  width: 100%;
+  height: 30px;
+  margin-top: -20px;
+}
+
+.categoriesDiv {
+  text-align: center;
+  padding-bottom: 5rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.divLogo {
+  width: 100%;
+  height: 65px;
+  background-color: white;
+  z-index: 1;
+  position: absolute;
+  margin-top: 20px;
+}
+
+
+.linkText {
+  display: inline-block;
+  color: #121011;
+  font-family: Montserrat;
+  font-size: 18px;
+  padding: 8px;
+  text-decoration: none;
+}
+
+.linkText:hover {
+  cursor: default;
+}
+
+.linkClick {
+  display: inline-block;
+  color: #121011;
+  font-family: Montserrat;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.linkClick:hover {
+  text-decoration: underline;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: right;
+  font-family: Montserrat;
+
+}
+
+li:hover {
+  cursor: default;
+
+}
+
+li a {
+  color: #121011;
+  padding: 8px;
+  text-decoration: none;
+  font-family: Montserrat;
+  font-size: 18px;
+  background-color: white;
+}
+
+.releases {
+  color: #E8A800;
+  padding: 8px;
+  text-decoration: none;
+  font-family: Montserrat;
+  font-size: 18px;
+  background-color: white;
+
+}
+
+li a:hover {
+  text-decoration: underline;
+}
+
+.nav {
+  margin-right: 17%;
+  z-index: 1;
+  position: relative;
+  margin-top: 45px;
+}
+
+body {
+  background-color: #F5F5F5;
+}
+
+.none {
+  text-decoration: none;
+  color: #121011;
+}
+
+.none2 {
+  text-decoration: none;
+  color: white;
+}
+
+.bannerflex {
+  display: flex;
+}
+
+.emphasistext2 {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.emphasistext {
+  text-align-last: center;
+}
+
+.bodytext {
+  text-align: center;
+}
+
+.bottom {
+  width: 100%;
+  height: 600px;
+  background-color: #F1F1F1;
+  margin-top: 20px;
+  text-align: left;
+  position: absolute;
+  z-index: -1;
+  text-align: center;
+}
+.div_sweater{
+    text-align: end;
+}
+.product {
+  width: 33%;
+  height: 600px;
+  background-color: #f1f1f1;
+  text-align: center;
+  float: right;
+}
+
+.titlesText {
+  font-size: 42px;
+  color: rgb(18, 16, 17);
+  font-family: Roboto;
+}
+
+.subTitulosTexto {
+  font-size: 36px;
+  color: rgb(18, 16, 17);
+  font-family: Roboto;
+}
+
+.producttext {
+  font-size: 28px;
+  color: rgb(18, 16, 17);
+  font-family: Roboto;
+}
+
+.pricetext {
+  font-size: 22px;
+  color: #403e3f;
+  font-family: Roboto;
+}
